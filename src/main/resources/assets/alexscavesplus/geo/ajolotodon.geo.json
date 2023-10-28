@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ancient_axolotl",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "main",
+					"pivot": [0, 6, 4],
+					"cubes": [
+						{"origin": [-4, 4, -6], "size": [8, 5, 15], "uv": [24, 14]},
+						{"origin": [0, 9, -6], "size": [0, 6, 14], "uv": [27, 39]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 6, 8],
+					"cubes": [
+						{"origin": [0, 2, 6], "size": [0, 9, 19], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 7, -6],
+					"cubes": [
+						{"origin": [-6, 3, -14], "size": [12, 7, 8], "uv": [0, 35]}
+					]
+				},
+				{
+					"name": "left_gills",
+					"parent": "head",
+					"pivot": [-4, 6, -8],
+					"cubes": [
+						{"origin": [-11, 4, -7], "size": [7, 10, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "right_gills",
+					"parent": "head",
+					"pivot": [4, 6, -7],
+					"cubes": [
+						{"origin": [4, 4, -7], "size": [7, 10, 0], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "top_gills",
+					"parent": "head",
+					"pivot": [0, 9, -7],
+					"cubes": [
+						{"origin": [-5, 9, -7], "size": [10, 7, 0], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "body",
+					"pivot": [-3.5, 5, 2],
+					"rotation": [12.5, 0, 22.5],
+					"cubes": [
+						{"origin": [-4.5, 1, 1], "size": [3, 4, 2], "uv": [20, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "body",
+					"pivot": [-3.5, 5, -3],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{"origin": [-4.5, 1, -4], "size": [3, 4, 2], "uv": [20, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "body",
+					"pivot": [3.5, 5, 2],
+					"rotation": [12.5, 0, -22.5],
+					"cubes": [
+						{"origin": [1.5, 1, 1], "size": [3, 4, 2], "uv": [20, 0]}
+					]
+				},
+				{
+					"name": "leg4",
+					"parent": "body",
+					"pivot": [3.5, 5, -3],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{"origin": [1.5, 1, -4], "size": [3, 4, 2], "uv": [20, 0]}
+					]
+				}
+			]
+		}
+	]
+}

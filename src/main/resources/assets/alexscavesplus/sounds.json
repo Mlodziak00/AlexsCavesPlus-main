@@ -1,0 +1,32 @@
+{
+  "ajolotodon_chirp": {
+    "subtitle": "alexscavesplus.subtitle.chirp",
+    "sounds": [
+      "alexscavesplus:entity/ajoltodon/ajolotodon_chirp1"
+    ]
+  },
+  "ajolotodon_chirp_air": {
+    "subtitle": "alexscavesplus.subtitle.chirp_air",
+    "sounds": [
+      "alexscavesplus:entity/ajoltodon/ajolotodon_chirp_air1"
+    ]
+  },
+  "ajolotodon_attack": {
+    "subtitle": "alexscavesplus.subtitle.attack",
+    "sounds": [
+      "alexscavesplus:entity/ajoltodon/ajolotodon_attack1"
+    ]
+  },
+  "ajolotodon_hurt": {
+    "subtitle": "alexscavesplus.subtitle.hurt",
+    "sounds": [
+      "alexscavesplus:entity/ajoltodon/ajolotodon_hurt1"
+    ]
+  },
+  "ajolotodon_death": {
+    "subtitle": "alexscavesplus.subtitle.death",
+    "sounds": [
+      "alexscavesplus:entity/ajolotodon/ajolotodon_death1"
+    ]
+  }
+}
