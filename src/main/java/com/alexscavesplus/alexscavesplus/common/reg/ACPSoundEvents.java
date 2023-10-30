@@ -17,6 +17,7 @@ public class ACPSoundEvents {
     public static final RegistryObject<SoundEvent> AJOLOTODON_ATTACK = registerSoundEvent("ajolotodon_attack");
     public static final RegistryObject<SoundEvent> AJOLOTODON_HURT = registerSoundEvent("ajolotodon_hurt");
     public static final RegistryObject<SoundEvent> AJOLOTODON_DEATH = registerSoundEvent("ajolotodon_death");
+    public static final RegistryObject<SoundEvent> MARSH_DISC = registerSoundEvent("marsh_disc");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(AlexsCavesPlus.MODID, name);

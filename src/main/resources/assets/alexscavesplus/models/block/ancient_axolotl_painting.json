@@ -1,0 +1,6 @@
+{
+  "parent": "alexscaves:block/cave_painting_base",
+  "textures": {
+    "painting": "alexscavesplus:block/cave_painting/ancient_axolotl"
+  }
+}

@@ -28,5 +28,14 @@
     "sounds": [
       "alexscavesplus:entity/ajolotodon/ajolotodon_death1"
     ]
+  },
+  "marsh_disc": {
+    "subtitle": "alexscavesplus.subtitle.marsh_disc",
+    "sounds": [
+      {
+        "name": "alexscavesplus:record/marsh_disc",
+        "stream": true
+      }
+    ]
   }
 }

@@ -1,9 +1,7 @@
 package com.alexscavesplus.alexscavesplus.client;
 
 import com.alexscavesplus.alexscavesplus.AlexsCavesPlus;
-import com.alexscavesplus.alexscavesplus.client.model.AjoltodonModel;
 import com.alexscavesplus.alexscavesplus.client.render.AjoltodonRenderer;
-import com.alexscavesplus.alexscavesplus.common.reg.ACPEntityLayer;
 import com.alexscavesplus.alexscavesplus.common.reg.ACPEntityType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;

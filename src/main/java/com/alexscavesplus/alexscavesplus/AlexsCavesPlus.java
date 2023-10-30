@@ -1,6 +1,8 @@
 package com.alexscavesplus.alexscavesplus;
 
+import com.alexscavesplus.alexscavesplus.common.reg.ACPBlocks;
 import com.alexscavesplus.alexscavesplus.common.reg.ACPEntityType;
+import com.alexscavesplus.alexscavesplus.common.reg.ACPItems;
 import com.alexscavesplus.alexscavesplus.common.reg.ACPSoundEvents;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +29,8 @@ public class AlexsCavesPlus
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ACPItems.register(modEventBus);
+        ACPBlocks.register(modEventBus);
         ACPEntityType.register(modEventBus);
         ACPSoundEvents.register(modEventBus);
 

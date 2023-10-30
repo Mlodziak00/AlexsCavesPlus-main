@@ -13,6 +13,7 @@ import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
+import net.minecraft.world.entity.LerpingModel;
 import org.checkerframework.checker.units.qual.A;
 import software.bernie.geckolib.constant.DataTickets;
 import software.bernie.geckolib.core.animatable.model.CoreGeoBone;
@@ -23,7 +24,7 @@ import software.bernie.geckolib.model.data.EntityModelData;
 import javax.annotation.concurrent.Immutable;
 
 
-public class AjoltodonModel extends GeoModel<AjolotodonEntity> {
+public class AjoltodonModel<T extends AjolotodonEntity & LerpingModel> extends GeoModel<T> {
 
     private static final ResourceLocation TEXTURE = new ResourceLocation(AlexsCavesPlus.MODID, "textures/entity/ajoltodon.png");
     private static final ResourceLocation BABY_TEXTURE = new ResourceLocation(AlexsCavesPlus.MODID, "textures/entity/baby_ajoltodon.png");
@@ -53,7 +54,7 @@ public class AjoltodonModel extends GeoModel<AjolotodonEntity> {
     }
 
     @Override
-    public void setCustomAnimations(AjolotodonEntity animatable, long instanceId, AnimationState<AjolotodonEntity> animationState) {
+    public void setCustomAnimations(T animatable, long instanceId, AnimationState<T> animationState) {
         CoreGeoBone head = getAnimationProcessor().getBone("head");
         if (head != null){
             EntityModelData entityModelData = animationState.getData(DataTickets.ENTITY_MODEL_DATA);
